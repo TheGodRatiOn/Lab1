@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+
     <list default="true" id="20cf5ea8-77dd-4884-b470-726026df44f6" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+
+    <list default="true" id="20cf5ea8-77dd-4884-b470-726026df44f6" name="Default Changelist" comment="git commit">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Fraction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/FractionPolynominal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/FractionSet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/FractionSetTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/FractionTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,17 +43,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
+
             <state relative-caret-position="462">
               <caret line="248" column="24" selection-start-line="248" selection-start-column="24" selection-end-line="248" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="class#Fraction#0" />
+
+            <state relative-caret-position="450">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#GetFractionValue#0;class#Fraction#0" />
+                <element signature="class#FractionSet#0" />
+
                 <element signature="method#findMin#0;class#FractionSet#0" />
                 <element signature="method#findMax#0;class#FractionSet#0" />
                 <element signature="method#countLessThanThis#0;class#FractionSet#0" />
                 <element signature="method#countGreaterThanThis#0;class#FractionSet#0" />
+
                 <element signature="method#fractionSetSumm#0;class#FractionSet#0" />
                 <element signature="method#FractionPolynomSumm#0;class#FractionPolynominal#0" />
+                <element signature="e#3082#3092#0" expanded="true" />
+
               </folding>
             </state>
           </provider>
@@ -89,6 +111,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
+
         <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
@@ -98,6 +121,11 @@
     <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="TheGodRatiOn" />
     <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="Lab1" />
   </component>
+        <entry key="$PROJECT_DIR$" value="features" />
+      </map>
+    </option>
+  </component>
+
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -140,6 +168,27 @@
               <item name="Lab1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Lab1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="Lab1" type="b2602c69:ProjectViewProjectNode" />
@@ -207,6 +256,7 @@
       <workItem from="1568754529420" duration="687000" />
       <workItem from="1570010592804" duration="1350000" />
       <workItem from="1570051668572" duration="60000" />
+
       <workItem from="1571165230961" duration="3743000" />
     </task>
     <task id="LOCAL-00001" summary="git commit">
@@ -221,6 +271,13 @@
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="11670000" />
+
+      <workItem from="1571165230961" duration="2568000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -242,8 +299,12 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+
       <window_info active="true" anchor="bottom" id="GitHub Pull Requests" weight="0.32936078" />
       <window_info anchor="bottom" id="Messages" weight="0.32936078" />
+
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32936078" />
+
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
@@ -252,7 +313,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+
       <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.24485373" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
+
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.22751896" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32936078" />
@@ -270,6 +334,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
       <list>
@@ -280,6 +345,7 @@
       </list>
     </option>
   </component>
+
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -335,6 +401,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FractionPolynominalTest.java" />
+
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -342,6 +409,7 @@
         </state>
       </provider>
     </entry>
+
     <entry file="file://$PROJECT_DIR$/src/test/java/FractionSetTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -362,6 +430,7 @@
     <entry file="file://$PROJECT_DIR$/Lab1.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -369,12 +438,31 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="class#Fraction#0" />
+
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#GetFractionValue#0;class#Fraction#0" />
+            <element signature="class#FractionSet#0" />
             <element signature="method#findMin#0;class#FractionSet#0" />
             <element signature="method#findMax#0;class#FractionSet#0" />
             <element signature="method#countLessThanThis#0;class#FractionSet#0" />
             <element signature="method#countGreaterThanThis#0;class#FractionSet#0" />
+
             <element signature="method#fractionSetSumm#0;class#FractionSet#0" />
             <element signature="method#FractionPolynomSumm#0;class#FractionPolynominal#0" />
+            <element signature="e#3082#3092#0" expanded="true" />
+
           </folding>
         </state>
       </provider>
