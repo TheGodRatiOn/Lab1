@@ -186,6 +186,16 @@ class FractionPolynominal {
 
         }
     }
+
+    double fractionPolinSumm(){
+        double fps = 0;
+
+        for (int i = 0; i < this.FractionPolynom.size(); i++) {
+            fps += this.FractionPolynom.get(i).GetFractionValue();
+        }
+
+        return fps;
+    }
 }
 
 public class Main {
@@ -238,9 +248,13 @@ public class Main {
 
         Fraction fraction7 = new Fraction();
         fraction7.readFractionFromFile();
-        fraction7.fractionPrint();
 
-        int test = fraction7.getRoundValue();
+
+        fraction7.fractionOutput();
+
+        double FPS = FP3.fractionPolinSumm();
+        System.out.println(FPS);
+
         input.close();
     }
 }
