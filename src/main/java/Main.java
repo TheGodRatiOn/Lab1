@@ -11,7 +11,7 @@ class Fraction {
     double Denominator;
 
 
-    void fractionOutput(){
+    void fractionPrint(){
         System.out.println("("  + Math.round(Numerator)  + "/" + Math.round(Denominator) + ") ");
     }
 
@@ -27,9 +27,7 @@ class Fraction {
             } else {
                 return Double.NEGATIVE_INFINITY;
             }
-
         }
-
     }
 
     void readFractionFromFile(){
@@ -47,6 +45,11 @@ class Fraction {
 
             System.out.println(ex.getMessage());
         }
+    }
+
+    int getRoundValue(){
+        double value = this.GetFractionValue();
+        return (int) value;
     }
 }
 
@@ -69,7 +72,7 @@ class FractionSet {
             }
 
             System.out.println("Minimal fraction in set is ");
-            FractionList.get(CurMin).fractionOutput();
+            FractionList.get(CurMin).fractionPrint();
         } else{
             System.out.println("Set of fractions is empty!");
         }
@@ -86,7 +89,7 @@ class FractionSet {
             }
 
             System.out.println("Maximal fraction in set is ");
-            FractionList.get(CurMax).fractionOutput();
+            FractionList.get(CurMax).fractionPrint();
         } else{
             System.out.println("Set of fractions is empty!");
         }
@@ -230,12 +233,14 @@ public class Main {
 
         for (int i = 0; i < FP3.FractionPolynom.size(); i++)
         {
-            FP3.FractionPolynom.get(i).fractionOutput();
+            FP3.FractionPolynom.get(i).fractionPrint();
         }
 
         Fraction fraction7 = new Fraction();
         fraction7.readFractionFromFile();
-        fraction7.fractionOutput();
+        fraction7.fractionPrint();
+
+        int test = fraction7.getRoundValue();
         input.close();
     }
 }
