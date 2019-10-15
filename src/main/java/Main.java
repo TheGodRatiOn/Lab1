@@ -115,6 +115,16 @@ class FractionSet {
 
         return GCounter;
     }
+
+    double fractionSetSumm(){
+        double summ=0;
+
+        for (int i = 0; i < this.FractionList.size(); i++) {
+            summ =+ this.FractionList.get(i).GetFractionValue();
+        }
+
+        return summ;
+    }
 }
 
 class FractionPolynominal {
@@ -236,6 +246,7 @@ public class Main {
         Fraction fraction7 = new Fraction();
         fraction7.readFractionFromFile();
         fraction7.fractionOutput();
+        double FSSUMM = fractionSet1.fractionSetSumm();
         input.close();
     }
 }
